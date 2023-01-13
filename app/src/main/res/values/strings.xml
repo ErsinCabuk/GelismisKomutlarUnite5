@@ -23,4 +23,7 @@
     <string name="bolme">Bölme</string>
     <string name="carpma">Çarpma</string>
     <string name="cikar">Çıkar</string>
+    <string name="sonuc">Sonuç:</string>
+    <string name="uc_sayiyi_topla">3. Sayıyı Topla</string>
+    <string name="iki_sayiyi_topla">2. Sayıyı Topla</string>
 </resources>
