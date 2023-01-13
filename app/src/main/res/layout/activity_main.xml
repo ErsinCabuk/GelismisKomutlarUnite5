@@ -7,7 +7,7 @@
     android:layout_marginLeft="4dp"
     android:layout_marginRight="4dp"
     android:baselineAligned="false"
-    tools:context=".MainActivity">
+    tools:context="ec.ersincabuk.gelismiskomutlarunite5.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

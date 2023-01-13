@@ -1,14 +1,15 @@
-package com.example.gelismiskomutlarunite5;
+package ec.ersincabuk.gelismiskomutlarunite5;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.gelismiskomutlarunite5.R;
 
 public class Uyg4Activity extends AppCompatActivity {
     EditText textNumber1, textNumber2, textNumber3;

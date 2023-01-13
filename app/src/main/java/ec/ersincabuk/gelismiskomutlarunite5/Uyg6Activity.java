@@ -1,4 +1,4 @@
-package com.example.gelismiskomutlarunite5;
+package ec.ersincabuk.gelismiskomutlarunite5;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.gelismiskomutlarunite5.R;
 
 public class Uyg6Activity extends AppCompatActivity {
     @Override

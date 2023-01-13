@@ -1,4 +1,4 @@
-package com.example.gelismiskomutlarunite5;
+package ec.ersincabuk.gelismiskomutlarunite5;
 
 import android.content.Context;
 
