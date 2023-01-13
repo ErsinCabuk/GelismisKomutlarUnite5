@@ -28,7 +28,7 @@
     <string name="uc_sayiyi_topla">3. Sayıyı Topla</string>
     <string name="iki_sayiyi_topla">2. Sayıyı Topla</string>
     <string name="cihaz_adi">Cihaz Adı</string>
-    <string name="cihaz_gucu">Cihaz Gücü (KW)</string>
+    <string name="cihaz_gucu">Cihaz Gücü (Watt)</string>
     <string name="gunluk_kullanilan_saat">Günlük kullanılan saat</string>
     <string name="hesapla">Hesapla</string>
     <string name="merhaba_1">Merhaba 1</string>
