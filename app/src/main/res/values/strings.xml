@@ -13,10 +13,11 @@
     <string name="uyg11_isim">Uygulama 11\n(Diziler)</string>
     <string name="uyg12_isim">Uygulama 12\n(ArrayList)</string>
     <string name="uyg13_isim">Uygulama 13\n(Tankçı ve Topçu Oyunu)</string>
-    <string name="selam_ver_1">Selam Ver 1</string>
-    <string name="selam_ver_2">Selam Ver 2</string>
     <string name="ss165">Sıra Sizde (165)</string>
     <string name="ss168">Sıra Sizde (168)</string>
+    <string name="ss173">Sıra Sizde (173)</string>
+    <string name="selam_ver_1">Selam Ver 1</string>
+    <string name="selam_ver_2">Selam Ver 2</string>
     <string name="sayi">Sayı</string>
     <string name="geri">Geri</string>
     <string name="topla">Topla</string>
@@ -30,4 +31,8 @@
     <string name="cihaz_gucu">Cihaz Gücü (KW)</string>
     <string name="gunluk_kullanilan_saat">Günlük kullanılan saat</string>
     <string name="hesapla">Hesapla</string>
+    <string name="merhaba_1">Merhaba 1</string>
+    <string name="merhaba_2">Merhaba 2</string>
+    <string name="ad">Ad</string>
+    <string name="soyad">Soyad</string>
 </resources>

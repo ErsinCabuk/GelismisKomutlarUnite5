@@ -88,4 +88,9 @@ public class MainActivity extends AppCompatActivity {
         Intent uyg = new Intent(MainActivity.this, SS168Activity.class);
         startActivity(uyg);
     }
+
+    public void btnSS173(View view) {
+        Intent uyg = new Intent(MainActivity.this, SS173Activity.class);
+        startActivity(uyg);
+    }
 }

@@ -4,8 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:baselineAligned="false">
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:baselineAligned="false"
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,7 +15,6 @@
         android:layout_weight="1"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        android:paddingLeft="4dp"
         android:paddingRight="4dp">
 
         <Button
@@ -82,9 +83,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center_horizontal"
-        android:orientation="vertical"
-        android:paddingLeft="4dp"
-        android:paddingRight="4dp">
+        android:orientation="vertical">
 
         <Button
             android:id="@+id/btnUyg9"
@@ -134,6 +133,13 @@
             android:layout_height="wrap_content"
             android:onClick="btnSS168"
             android:text="@string/ss168" />
+
+        <Button
+            android:id="@+id/btnSS173"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnSS173"
+            android:text="@string/ss173" />
     </LinearLayout>
 
 </LinearLayout>

@@ -15,13 +15,13 @@ public class SS165Activity extends AppCompatActivity {
         setContentView(R.layout.ss165_activity);
     }
 
-    public void btnBack(View view) {
-        Intent uyg = new Intent(SS165Activity.this, MainActivity.class);
-        startActivity(uyg);
-    }
-
     public void btnSuccess(View view) {
         int topla = 15 + 15;
         Toast.makeText(this, "Topla: " + topla, Toast.LENGTH_SHORT).show();
+    }
+
+    public void btnBack(View view) {
+        Intent uyg = new Intent(SS165Activity.this, MainActivity.class);
+        startActivity(uyg);
     }
 }

@@ -15,11 +15,6 @@ public class Uyg1Activity extends AppCompatActivity {
         setContentView(R.layout.uyg1_activity);
     }
 
-    public void btnBack(View view) {
-        Intent uyg = new Intent(Uyg1Activity.this, MainActivity.class);
-        startActivity(uyg);
-    }
-
     public void btnSelamVer1(View view) {
         selamVer();
     }
@@ -30,5 +25,10 @@ public class Uyg1Activity extends AppCompatActivity {
 
     private void selamVer() {
         Toast.makeText(this, "Merhaba!", Toast.LENGTH_SHORT).show();
+    }
+
+    public void btnBack(View view) {
+        Intent uyg = new Intent(Uyg1Activity.this, MainActivity.class);
+        startActivity(uyg);
     }
 }

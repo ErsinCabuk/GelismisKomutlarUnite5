@@ -1,5 +1,6 @@
 package com.example.gelismiskomutlarunite5;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -48,5 +49,10 @@ public class SS168Activity extends AppCompatActivity {
         else if(option == "*") number = number1 * number2;
         else if(option == "/") number = number1 / number2;
         return number;
+    }
+
+    public void btnBack(View view) {
+        Intent uyg = new Intent(SS168Activity.this, MainActivity.class);
+        startActivity(uyg);
     }
 }
