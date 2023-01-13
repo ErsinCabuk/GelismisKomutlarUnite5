@@ -16,11 +16,8 @@ public class Uyg3Activity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.uyg3_activity);
-    }
-
-    public void btnBack(View view) {
-        Intent uyg = new Intent(Uyg3Activity.this, MainActivity.class);
-        startActivity(uyg);
+        textNumber1 = findViewById(R.id.textNumber1);
+        textNumber2 = findViewById(R.id.textNumber2);
     }
 
     public void btnSuccess(View view) {
@@ -30,5 +27,10 @@ public class Uyg3Activity extends AppCompatActivity {
 
     public int calculate(int number1, int number2) {
         return number1 + number2;
+    }
+
+    public void btnBack(View view) {
+        Intent uyg = new Intent(Uyg3Activity.this, MainActivity.class);
+        startActivity(uyg);
     }
 }

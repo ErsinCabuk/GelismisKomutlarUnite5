@@ -25,11 +25,6 @@ public class Uyg4Activity extends AppCompatActivity {
         textResult = findViewById(R.id.textResult);
     }
 
-    public void btnBack(View view) {
-        Intent uyg = new Intent(Uyg4Activity.this, MainActivity.class);
-        startActivity(uyg);
-    }
-
     public void btnPlusTwo(View view) {
         int sayi1 = Integer.parseInt(textNumber1.getText().toString());
         int sayi2 = Integer.parseInt(textNumber2.getText().toString());
@@ -49,5 +44,10 @@ public class Uyg4Activity extends AppCompatActivity {
 
     private int topla(int sayi1, int sayi2, int sayi3) {
         return sayi1 + sayi2 + sayi3;
+    }
+
+    public void btnBack(View view) {
+        Intent uyg = new Intent(Uyg4Activity.this, MainActivity.class);
+        startActivity(uyg);
     }
 }

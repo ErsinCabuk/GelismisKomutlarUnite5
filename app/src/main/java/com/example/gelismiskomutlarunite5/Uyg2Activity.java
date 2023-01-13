@@ -21,11 +21,6 @@ public class Uyg2Activity extends AppCompatActivity {
         textNumber2 = findViewById(R.id.textNumber2);
     }
 
-    public void btnBack(View view) {
-        Intent uyg = new Intent(Uyg2Activity.this, MainActivity.class);
-        startActivity(uyg);
-    }
-
     public void btnSuccess(View view) {
         int result = calculate();
         Toast.makeText(this, "Toplam: " + result, Toast.LENGTH_SHORT).show();
@@ -33,5 +28,10 @@ public class Uyg2Activity extends AppCompatActivity {
 
     public int calculate() {
         return Integer.parseInt(textNumber1.getText().toString()) + Integer.parseInt(textNumber2.getText().toString());
+    }
+
+    public void btnBack(View view) {
+        Intent uyg = new Intent(Uyg2Activity.this, MainActivity.class);
+        startActivity(uyg);
     }
 }
