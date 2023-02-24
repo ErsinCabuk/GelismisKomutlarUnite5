@@ -17,4 +17,79 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.971" />
+
+    <EditText
+        android:id="@+id/txtUzunKenar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/uzun_kenar"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/txtKisaKenar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.014" />
+
+    <EditText
+        android:id="@+id/txtKisaKenar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/kisa_kenar"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.347"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <Button
+        android:id="@+id/btnDikdortgenAlani"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:onClick="btnDikdortgenAlani"
+        android:text="@string/diktortgen_alani"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnKareAlani"
+        app:layout_constraintTop_toBottomOf="@+id/txtKisaKenar"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <Button
+        android:id="@+id/btnKareAlani"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnKareAlani"
+        android:text="@string/kare_alani"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.191"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtKisaKenar"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <TextView
+        android:id="@+id/txtViewAlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alan"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.239" />
 </androidx.constraintlayout.widget.ConstraintLayout>

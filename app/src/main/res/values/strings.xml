@@ -35,4 +35,9 @@
     <string name="merhaba_2">Merhaba 2</string>
     <string name="ad">Ad</string>
     <string name="soyad">Soyad</string>
+    <string name="kisa_kenar">Kısa Kenar</string>
+    <string name="uzun_kenar">Uzun Kenar</string>
+    <string name="diktortgen_alani">Dikdörtgen Alanı</string>
+    <string name="kare_alani">Kare Alanı</string>
+    <string name="alan">Alan:</string>
 </resources>
