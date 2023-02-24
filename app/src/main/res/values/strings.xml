@@ -48,4 +48,6 @@
     <string name="ikiz_kenar">İkizkenar</string>
     <string name="es_kenar">Eşkenar</string>
     <string name="cevre">Çevre</string>
+    <string name="yas">Yaş</string>
+    <string name="kaydet">Kaydet</string>
 </resources>
