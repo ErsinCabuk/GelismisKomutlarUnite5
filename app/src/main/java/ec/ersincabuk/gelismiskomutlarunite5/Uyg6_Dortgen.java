@@ -4,9 +4,7 @@ public class Uyg6_Dortgen {
     public int kisaKenar;
     public int uzunKenar;
     public int alanBul(){
-        int alan;
-        alan = kisaKenar * uzunKenar;
-        return alan;
+        return kisaKenar * uzunKenar;
     }
 
     public Uyg6_Dortgen(int kenar) {
