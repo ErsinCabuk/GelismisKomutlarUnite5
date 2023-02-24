@@ -2,7 +2,7 @@ package ec.ersincabuk.gelismiskomutlarunite5;
 
 import android.util.Log;
 
-public class ElektrikliCihaz {
+public class Uyg5_ElektrikliCihaz {
     public String deviceName;
     public double devicePower;
     public double deviceDaily;

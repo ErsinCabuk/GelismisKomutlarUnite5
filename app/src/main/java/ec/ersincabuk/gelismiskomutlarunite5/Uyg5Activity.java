@@ -34,7 +34,7 @@ public class Uyg5Activity extends AppCompatActivity {
         double kw = Double.parseDouble(textDevicePower.getText().toString());
         int daily = Integer.parseInt(textDeviceDaily.getText().toString());
 
-        ElektrikliCihaz device = new ElektrikliCihaz();
+        Uyg5_ElektrikliCihaz device = new Uyg5_ElektrikliCihaz();
         device.deviceName = deviceName;
         device.devicePower = kw;
         device.deviceDaily = daily;
