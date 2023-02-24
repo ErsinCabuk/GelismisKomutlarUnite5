@@ -16,6 +16,7 @@
     <string name="ss165">Sıra Sizde (165)</string>
     <string name="ss168">Sıra Sizde (168)</string>
     <string name="ss173">Sıra Sizde (173)</string>
+    <string name="ss188">Sıra Sizde (188)</string>
     <string name="selam_ver_1">Selam Ver 1</string>
     <string name="selam_ver_2">Selam Ver 2</string>
     <string name="sayi">Sayı</string>
@@ -40,4 +41,11 @@
     <string name="diktortgen_alani">Dikdörtgen Alanı</string>
     <string name="kare_alani">Kare Alanı</string>
     <string name="alan">Alan:</string>
+    <string name="bir_kenar">1. Kenar</string>
+    <string name="iki_kenar">2. Kenar</string>
+    <string name="uc_kenar">3. Kenar</string>
+    <string name="cesit_kenar">Çeşitkenar</string>
+    <string name="ikiz_kenar">İkizkenar</string>
+    <string name="es_kenar">Eşkenar</string>
+    <string name="cevre">Çevre</string>
 </resources>

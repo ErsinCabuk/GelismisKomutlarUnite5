@@ -140,6 +140,13 @@
             android:layout_height="wrap_content"
             android:onClick="btnSS173"
             android:text="@string/ss173" />
+
+        <Button
+            android:id="@+id/btnSS188"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnSS188"
+            android:text="@string/ss188" />
     </LinearLayout>
 
 </LinearLayout>
