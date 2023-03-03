@@ -54,11 +54,11 @@
             android:text="@string/araba_kapi_sayisi" />
 
         <Button
-            android:id="@+id/btnArabaMaksHızı"
+            android:id="@+id/btnArabaMaksHizi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="btnArabaMaksHızı"
+            android:onClick="btnArabaMaksHizi"
             android:text="@string/araba_maksimum_hizi" />
 
         <Button

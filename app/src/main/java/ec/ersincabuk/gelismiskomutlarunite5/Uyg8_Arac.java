@@ -21,11 +21,11 @@ public class Uyg8_Arac {
     }
 
     public String kapiSayisiniGoster() {
-        return "Aracın kapı sayısı:" + this.kapiSayisi.toString();
+        return "Aracın kapı sayısı: " + this.kapiSayisi.toString();
     }
 
     public String maksimumHizGoster() {
-        return "Aracın maksimum hızı:" + this.maksimumHiz.toString();
+        return "Aracın maksimum hızı: " + this.maksimumHiz.toString();
     }
 
     public String calistir(){
