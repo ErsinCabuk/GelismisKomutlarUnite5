@@ -50,4 +50,13 @@
     <string name="cevre">Çevre</string>
     <string name="yas">Yaş</string>
     <string name="kaydet">Kaydet</string>
+    <string name="bilgi">Bilgi</string>
+    <string name="minibus_kapi_sayisi">Minibüs Kapı Sayısı</string>
+    <string name="minibus_maksimum_hizi">Minibüs maksimum hızı</string>
+    <string name="minibus_calistir">Minibüs’ü Çalıştır</string>
+    <string name="minibus_yolcu_indir">Minibüs Yolcu İndir</string>
+    <string name="araba_kapi_sayisi">Araba Kapı Sayısı</string>
+    <string name="araba_maksimum_hizi">Araba maksimum hızı</string>
+    <string name="arabayi_calistir">Araba’yı Çalıştır</string>
+    <string name="araba_ise_git">Araba İşe Git</string>
 </resources>
