@@ -46,6 +46,19 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
+        android:id="@+id/btnTopcu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnTopcu"
+        android:text="@string/topcu_ates_et"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewBilgi"
+        app:layout_constraintVertical_bias="0.11" />
+
+    <Button
         android:id="@+id/btnTankci"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -17,6 +17,7 @@
     <string name="ss168">Sıra Sizde (168)</string>
     <string name="ss173">Sıra Sizde (173)</string>
     <string name="ss188">Sıra Sizde (188)</string>
+    <string name="ss206">Sıra Sizde (206)</string>
     <string name="selam_ver_1">Selam Ver 1</string>
     <string name="selam_ver_2">Selam Ver 2</string>
     <string name="sayi">Sayı</string>
@@ -59,4 +60,7 @@
     <string name="araba_maksimum_hizi">Araba maksimum hızı</string>
     <string name="arabayi_calistir">Araba’yı Çalıştır</string>
     <string name="araba_ise_git">Araba İşe Git</string>
+    <string name="asker_ates_et">Asker Ateş Et</string>
+    <string name="tankci_ates_et">Tankçı Ateş Et</string>
+    <string name="topcu_ates_et">Topçu Ateş Et</string>
 </resources>

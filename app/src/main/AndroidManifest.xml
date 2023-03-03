@@ -39,6 +39,7 @@
         <activity android:name="ec.ersincabuk.gelismiskomutlarunite5.SS168Activity" android:label="@string/ss168"></activity>
         <activity android:name="ec.ersincabuk.gelismiskomutlarunite5.SS173Activity" android:label="@string/ss173"></activity>
         <activity android:name="ec.ersincabuk.gelismiskomutlarunite5.SS188Activity" android:label="@string/ss188"></activity>
+        <activity android:name="ec.ersincabuk.gelismiskomutlarunite5.SS206Activity" android:label="@string/ss206"></activity>
     </application>
 
 </manifest>
