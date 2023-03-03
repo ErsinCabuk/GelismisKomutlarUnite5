@@ -63,4 +63,8 @@
     <string name="asker_ates_et">Asker Ateş Et</string>
     <string name="tankci_ates_et">Tankçı Ateş Et</string>
     <string name="topcu_ates_et">Topçu Ateş Et</string>
+    <string name="indeks">İndeks:</string>
+    <string name="toplam">Toplam:</string>
+    <string name="ekle">Ekle</string>
+    <string name="sifirla">Sıfırla</string>
 </resources>
