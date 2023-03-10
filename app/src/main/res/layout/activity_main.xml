@@ -76,6 +76,13 @@
             android:layout_height="wrap_content"
             android:onClick="btnUyg8"
             android:text="@string/uyg8_isim" />
+
+        <Button
+            android:id="@+id/btnUyg9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnUyg9"
+            android:text="@string/uyg9_isim" />
     </LinearLayout>
 
     <LinearLayout
@@ -84,13 +91,6 @@
         android:layout_weight="1"
         android:gravity="center_horizontal"
         android:orientation="vertical">
-
-        <Button
-            android:id="@+id/btnUyg9"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="btnUyg9"
-            android:text="@string/uyg9_isim" />
 
         <Button
             android:id="@+id/button10"
@@ -125,42 +125,49 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="btnSS165"
-            android:text="@string/ss165" />
+            android:text="@string/ss165_isim" />
 
         <Button
             android:id="@+id/btnSS168"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="btnSS168"
-            android:text="@string/ss168" />
+            android:text="@string/ss168_isim" />
 
         <Button
             android:id="@+id/btnSS173"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="btnSS173"
-            android:text="@string/ss173" />
+            android:text="@string/ss173_isim" />
 
         <Button
             android:id="@+id/btnSS188"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="btnSS188"
-            android:text="@string/ss188" />
+            android:text="@string/ss188_isim" />
 
         <Button
             android:id="@+id/btnSS206"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="btnSS206"
-            android:text="@string/ss206" />
+            android:text="@string/ss206_isim" />
+
+        <Button
+            android:id="@+id/btnSS2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnSS214"
+            android:text="@string/ss214_isim" />
 
         <Button
             android:id="@+id/btnSS"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="goldsoru1"
-            android:text="@string/goldsoru1" />
+            android:onClick="btnGoldSoru1"
+            android:text="@string/goldsoru1_isim" />
     </LinearLayout>
 
 </LinearLayout>

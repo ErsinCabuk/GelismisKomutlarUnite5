@@ -63,21 +63,25 @@
             android:label="@string/uyg13_isim" />
         <activity
             android:name="ec.ersincabuk.gelismiskomutlarunite5.SS165Activity"
-            android:label="@string/ss165" />
+            android:label="@string/ss165_isim" />
         <activity
             android:name="ec.ersincabuk.gelismiskomutlarunite5.SS168Activity"
-            android:label="@string/ss168" />
+            android:label="@string/ss168_isim" />
         <activity
             android:name="ec.ersincabuk.gelismiskomutlarunite5.SS173Activity"
-            android:label="@string/ss173" />
+            android:label="@string/ss173_isim" />
         <activity
             android:name="ec.ersincabuk.gelismiskomutlarunite5.SS188Activity"
-            android:label="@string/ss188" />
+            android:label="@string/ss188_isim" />
         <activity
             android:name="ec.ersincabuk.gelismiskomutlarunite5.SS206Activity"
-            android:label="@string/ss206" />
-
-        <activity android:name="ec.ersincabuk.gelismiskomutlarunite5.GoldSoruActivity" android:label="@string/goldsoru1"></activity>
+            android:label="@string/ss206_isim" />
+        <activity
+            android:name="ec.ersincabuk.gelismiskomutlarunite5.GoldSoruActivity"
+            android:label="@string/goldsoru1_isim" />
+        <activity
+            android:name="ec.ersincabuk.gelismiskomutlarunite5.SS214Activity"
+            android:label="@string/ss214_isim" />
     </application>
 
 </manifest>
