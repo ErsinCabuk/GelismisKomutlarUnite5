@@ -76,4 +76,6 @@
     <string name="tankci_ates_gucu">Tankcı Ateş Gücü</string>
     <string name="oyuncu1">1. Oyuncu</string>
     <string name="oyuncu2">2. Oyuncu</string>
+    <string name="uc">3</string>
+    <string name="bes">5</string>
 </resources>
