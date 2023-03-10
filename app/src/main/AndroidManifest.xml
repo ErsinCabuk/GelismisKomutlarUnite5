@@ -14,6 +14,9 @@
         android:theme="@style/Theme.GelismisKomutlarUnite5"
         tools:targetApi="31">
         <activity
+            android:name=".GoldSoru1Activity"
+            android:exported="false" />
+        <activity
             android:name="ec.ersincabuk.gelismiskomutlarunite5.MainActivity"
             android:exported="true">
             <intent-filter>
@@ -22,24 +25,62 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg1Activity" android:label="@string/uyg1_isim"></activity>
-        <activity android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg2Activity" android:label="@string/uyg2_isim"></activity>
-        <activity android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg3Activity" android:label="@string/uyg3_isim"></activity>
-        <activity android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg4Activity" android:label="@string/uyg4_isim"></activity>
-        <activity android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg5Activity" android:label="@string/uyg5_isim"></activity>
-        <activity android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg6Activity" android:label="@string/uyg6_isim"></activity>
-        <activity android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg7Activity" android:label="@string/uyg7_isim"></activity>
-        <activity android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg8Activity" android:label="@string/uyg8_isim"></activity>
-        <activity android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg9Activity" android:label="@string/uyg9_isim"></activity>
-        <activity android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg10Activity" android:label="@string/uyg10_isim"></activity>
-        <activity android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg11Activity" android:label="@string/uyg11_isim"></activity>
-        <activity android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg12Activity" android:label="@string/uyg12_isim"></activity>
-        <activity android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg13Activity" android:label="@string/uyg13_isim"></activity>
-        <activity android:name="ec.ersincabuk.gelismiskomutlarunite5.SS165Activity" android:label="@string/ss165"></activity>
-        <activity android:name="ec.ersincabuk.gelismiskomutlarunite5.SS168Activity" android:label="@string/ss168"></activity>
-        <activity android:name="ec.ersincabuk.gelismiskomutlarunite5.SS173Activity" android:label="@string/ss173"></activity>
-        <activity android:name="ec.ersincabuk.gelismiskomutlarunite5.SS188Activity" android:label="@string/ss188"></activity>
-        <activity android:name="ec.ersincabuk.gelismiskomutlarunite5.SS206Activity" android:label="@string/ss206"></activity>
+        <activity
+            android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg1Activity"
+            android:label="@string/uyg1_isim" />
+        <activity
+            android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg2Activity"
+            android:label="@string/uyg2_isim" />
+        <activity
+            android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg3Activity"
+            android:label="@string/uyg3_isim" />
+        <activity
+            android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg4Activity"
+            android:label="@string/uyg4_isim" />
+        <activity
+            android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg5Activity"
+            android:label="@string/uyg5_isim" />
+        <activity
+            android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg6Activity"
+            android:label="@string/uyg6_isim" />
+        <activity
+            android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg7Activity"
+            android:label="@string/uyg7_isim" />
+        <activity
+            android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg8Activity"
+            android:label="@string/uyg8_isim" />
+        <activity
+            android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg9Activity"
+            android:label="@string/uyg9_isim" />
+        <activity
+            android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg10Activity"
+            android:label="@string/uyg10_isim" />
+        <activity
+            android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg11Activity"
+            android:label="@string/uyg11_isim" />
+        <activity
+            android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg12Activity"
+            android:label="@string/uyg12_isim" />
+        <activity
+            android:name="ec.ersincabuk.gelismiskomutlarunite5.Uyg13Activity"
+            android:label="@string/uyg13_isim" />
+        <activity
+            android:name="ec.ersincabuk.gelismiskomutlarunite5.SS165Activity"
+            android:label="@string/ss165" />
+        <activity
+            android:name="ec.ersincabuk.gelismiskomutlarunite5.SS168Activity"
+            android:label="@string/ss168" />
+        <activity
+            android:name="ec.ersincabuk.gelismiskomutlarunite5.SS173Activity"
+            android:label="@string/ss173" />
+        <activity
+            android:name="ec.ersincabuk.gelismiskomutlarunite5.SS188Activity"
+            android:label="@string/ss188" />
+        <activity
+            android:name="ec.ersincabuk.gelismiskomutlarunite5.SS206Activity"
+            android:label="@string/ss206" />
+
+        <activity android:name=".GoldSoru1Activity" android:label="@string/goldsoru1"></activity>
     </application>
 
 </manifest>
