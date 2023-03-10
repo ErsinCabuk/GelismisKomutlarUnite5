@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.gelismiskomutlarunite5.GoldSoru1Activity;
 import com.example.gelismiskomutlarunite5.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -108,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goldsoru1(View view) {
-        Intent uyg = new Intent(MainActivity.this, GoldSoru1Activity.class);
+        Intent uyg = new Intent(MainActivity.this, GoldSoruActivity.class);
         startActivity(uyg);
     }
 }

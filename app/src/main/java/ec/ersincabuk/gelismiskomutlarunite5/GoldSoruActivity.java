@@ -1,16 +1,16 @@
-package com.example.gelismiskomutlarunite5;
-
-import androidx.appcompat.app.AppCompatActivity;
+package ec.ersincabuk.gelismiskomutlarunite5;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import ec.ersincabuk.gelismiskomutlarunite5.GoldSoru1_DortIslem;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class GoldSoru1Activity extends AppCompatActivity {
+import com.example.gelismiskomutlarunite5.R;
+
+public class GoldSoruActivity  extends AppCompatActivity {
     Button bir, iki, uc, dort, bes, alti, yedi, sekiz, dokuz, sifir, arti, eksi, carpi, bolu, esittir, sil;
     TextView txtViewSonuc;
 
@@ -42,20 +42,34 @@ public class GoldSoru1Activity extends AppCompatActivity {
         Button btn = (Button) view;
         String buttonText = btn.getText().toString();
         String sonuc = txtViewSonuc.getText().toString();
-        if(sonuc.substring(sonuc.length() - 1) == " ") txtViewSonuc.setText(sonuc.substring(0, sonuc.length() - 2) + buttonText + " ");
-        if(buttonText == "+" || buttonText == "-" || buttonText == "*" || buttonText == "/") txtViewSonuc.setText(sonuc + " " + buttonText + " ");
-        else txtViewSonuc.setText(sonuc + buttonText);
+        switch (buttonText) {
+            case "+":
+            case "-":
+            case "*":
+            case "/":
+                txtViewSonuc.setText(sonuc + " " + buttonText.toString() + " ");
+                break;
+            default:
+                txtViewSonuc.setText(sonuc + buttonText);
+        }
+
     }
 
     public void esittir(View view) {
         String sonucc = txtViewSonuc.getText().toString();
         String[] sonucDizisi = sonucc.split(" ");
 
+        Log.d("ad", sonucDizisi[0] + " " + sonucDizisi[1] + " " + sonucDizisi[2]);
+
         int sayi1 = Integer.parseInt(sonucDizisi[0]), sayi2 = Integer.parseInt(sonucDizisi[2]);
         String islem = sonucDizisi[1];
 
         GoldSoru1_DortIslem sonuc = new GoldSoru1_DortIslem(sayi1, sayi2, islem);
 
-        txtViewSonuc.setText(sonucc + " = " + sonuc);
+        txtViewSonuc.setText(sonucc + " = " + sonuc.sonuc);
+    }
+
+    public void sil(View view) {
+        txtViewSonuc.setText("");
     }
 }
