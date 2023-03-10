@@ -11,9 +11,9 @@ import com.example.gelismiskomutlarunite5.R;
 
 public class SS206Activity extends AppCompatActivity {
     TextView txtViewBilgi;
-    public Asker asker = new Asker();
-    public Tankci tankci = new Tankci();
-    public Topcu topcu = new Topcu();
+    //public Asker asker = new Asker();
+    //public Tankci tankci = new Tankci();
+    //public Topcu topcu = new Topcu();
     String mesaj = "";
 
     @Override
@@ -24,17 +24,17 @@ public class SS206Activity extends AppCompatActivity {
     }
 
     public void btnAsker(View view) {
-        mesaj = asker.atesEt();
+       // mesaj = asker.atesEt();
         txtViewBilgi.setText(mesaj);
     }
 
     public void btnTankci(View view) {
-        mesaj = tankci.atesEt();
+       // mesaj = tankci.atesEt();
         txtViewBilgi.setText(mesaj);
     }
 
     public void btnTopcu(View view) {
-        mesaj = topcu.atesEt();
+      //  mesaj = topcu.atesEt();
         txtViewBilgi.setText(mesaj);
     }
 }

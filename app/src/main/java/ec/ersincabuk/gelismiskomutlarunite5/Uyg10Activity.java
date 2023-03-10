@@ -12,8 +12,8 @@ import com.example.gelismiskomutlarunite5.R;
 
 public class Uyg10Activity extends AppCompatActivity {
     TextView txtViewBilgi;
-    public Asker asker = new Asker();
-    public Tankci tankci = new Tankci();
+   // public Asker asker = new Asker();
+    //public Tankci tankci = new Tankci();
     String mesaj = "";
 
     @Override
@@ -24,12 +24,10 @@ public class Uyg10Activity extends AppCompatActivity {
     }
 
     public void btnAsker(View view) {
-        mesaj = asker.atesEt();
         txtViewBilgi.setText(mesaj);
     }
 
     public void btnTankci(View view) {
-        mesaj = tankci.atesEt();
         txtViewBilgi.setText(mesaj);
     }
 

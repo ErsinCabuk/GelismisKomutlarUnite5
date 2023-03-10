@@ -68,4 +68,12 @@
     <string name="ekle">Ekle</string>
     <string name="sifirla">Sıfırla</string>
     <string name="isim">İsim</string>
+    <string name="oyun">OYUN</string>
+    <string name="topcu_atesi">Topçu Ateşi</string>
+    <string name="tankci_atesi">Tankci Ateşi</string>
+    <string name="bastan_basla">Baştan Başla</string>
+    <string name="topcu_ates_gucu">Topçu Ateş Gücü</string>
+    <string name="tankci_ates_gucu">Tankcı Ateş Gücü</string>
+    <string name="oyuncu1">1. Oyuncu</string>
+    <string name="oyuncu2">2. Oyuncu</string>
 </resources>

@@ -1,8 +1,7 @@
 package ec.ersincabuk.gelismiskomutlarunite5;
 
 public class Tankci extends Asker {
-    @Override
-    public String atesEt() {
-        return "Tankçı ateş etti";
+    public Tankci(Integer atesGucu) {
+        super(atesGucu, 5);
     }
 }
